@@ -24,6 +24,14 @@ body {
 #boxIndex h2 {
   color: orange; }
 
+.nav-link:hover {
+  transform: scale(1.2);
+  transition: all 2s , color 2s; }
+
+.col-lg-4 img:hover {
+  transform: scale(1.2);
+  transition: all 2s; }
+
 #quienessomos img {
   width: 200px;
   height: 300px;
