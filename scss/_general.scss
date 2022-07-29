@@ -17,5 +17,6 @@ font-family: 'Righteous', cursive;
     background-color: map-get($colores, "color-principal" );
 }
 
-   
-
+.bg-secondary{
+    background-color: map-get($colores, "color-principal");
+}

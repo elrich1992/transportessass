@@ -25,3 +25,7 @@
     transform: scale(1.2);
     transition: all 2s;
 }
+
+.col{
+    background-color: map-get($colores , "color-principal" );
+}

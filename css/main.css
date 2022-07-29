@@ -13,6 +13,9 @@ body {
 .container-fluid {
   background-color: orange; }
 
+.bg-secondary {
+  background-color: orange; }
+
 #boxIndex {
   display: flex;
   flex-direction: column;
@@ -31,6 +34,9 @@ body {
 .col-lg-4 img:hover {
   transform: scale(1.2);
   transition: all 2s; }
+
+.col {
+  background-color: orange; }
 
 #quienessomos img {
   width: 200px;
