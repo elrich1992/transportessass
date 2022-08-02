@@ -20,3 +20,7 @@ font-family: 'Righteous', cursive;
 .bg-secondary{
     background-color: map-get($colores, "color-principal");
 }
+
+#footerIndex{
+    background-color: map-get($colores, "color-principal");
+}
