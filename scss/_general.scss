@@ -5,7 +5,8 @@
 
 body{
     font-family: 'Lato', sans-serif;
-font-family: 'Righteous', cursive;
+    font-family: 'Righteous', cursive;
+    background-color: map-get($colores , "color-secundario" );
 }
 
 .nav-link:hover{
@@ -21,6 +22,7 @@ font-family: 'Righteous', cursive;
     background-color: map-get($colores, "color-principal");
 }
 
-#footerIndex{
-    background-color: map-get($colores, "color-principal");
-}
+.container-fluid__footer{
+    background-color: map-get($colores , "color-principal" );
+}    
+
