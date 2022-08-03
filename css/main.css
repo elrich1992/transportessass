@@ -25,7 +25,8 @@ body {
   display: flex;
   flex-direction: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  background-color: lightgray; }
   #boxIndex #boxSubtitulo {
     display: flex;
     flex-direction: column;
@@ -74,9 +75,6 @@ body {
     background-image: url(./fotos/escuela.jpg); }
   100% {
     background-image: url(./fotos/santamargarita.jpg); } }
-
-.container-fluid__footer {
-  background-color: orange; }
 
 #quienessomos {
   display: flex;

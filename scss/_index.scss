@@ -3,7 +3,7 @@
     flex-direction: flex;
     flex-direction: column;   
     justify-content: center;
-    
+    background-color: map-get($colores , "color-secundario" );
 
     #boxSubtitulo{
         display: flex;
@@ -76,6 +76,4 @@
 
     }
 
-.container-fluid__footer{
-    background-color: map-get($colores , "color-principal" );
-}    
+    
