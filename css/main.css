@@ -21,6 +21,13 @@ body {
 .container-fluid__footer {
   background-color: orange; }
 
+h1 {
+  font-size: 44px; }
+  h1h2 {
+    font-size: 28px; }
+  h1p {
+    font-size: 17px; }
+
 #boxIndex {
   display: flex;
   flex-direction: flex;
@@ -106,4 +113,5 @@ body {
   color: orange; }
 
 .btn {
-  background-color: orange; }
+  background-color: orange;
+  position: center; }

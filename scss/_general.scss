@@ -23,6 +23,17 @@ body{
 }
 
 .container-fluid__footer{
-    background-color: map-get($colores , "color-principal" );
+    background-color: map-get($colores , "color-principal")
 }    
 
+h1{
+    font-size: 44px;
+
+    &h2{
+        font-size: 28px;
+    }
+
+    &p{
+        font-size:17px;
+    }
+}
